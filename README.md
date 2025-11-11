@@ -78,8 +78,7 @@ Grad-CAM visualizations highlight image regions most influential to the model’
 
 | Binary Detection | GAN Attribution |
 |------------------|----------------|
-|<img width="1600" height="533" alt="image" src="https://github.com/user-attachments/assets/215081ca-d466-48a4-8aaa-fabf8f03493a" />
- |<img width="1150" height="636" alt="image" src="https://github.com/user-attachments/assets/56c9a080-6382-47bf-84a6-cdf89ea9e917" />
+|<img width="1600" height="533" alt="image" src="https://github.com/user-attachments/assets/215081ca-d466-48a4-8aaa-fabf8f03493a" /> |<img width="1150" height="636" alt="image" src="https://github.com/user-attachments/assets/56c9a080-6382-47bf-84a6-cdf89ea9e917" />
  |
 
 > **Red regions** = high influence  
@@ -91,8 +90,7 @@ Grad-CAM visualizations highlight image regions most influential to the model’
 
 | Upload | Analysis Result |
 |--------|-----------------|
-| ![Upload UI]<img width="1285" height="553" alt="image" src="https://github.com/user-attachments/assets/f8b606e4-7ba8-4f8f-a2d8-a235f82e2519" />
-| ![Results UI]<img width="1203" height="606" alt="image" src="https://github.com/user-attachments/assets/c8755c01-9d8d-4634-ae51-7b7a678b0647" />
+| ![Upload UI]<img width="1285" height="553" alt="image" src="https://github.com/user-attachments/assets/8aebcff7-4f25-49ff-bbbe-385a939447c3" /> | ![Results UI]<img width="1203" height="606" alt="image" src="https://github.com/user-attachments/assets/c8755c01-9d8d-4634-ae51-7b7a678b0647" />
  |
 
 **How it works:**
@@ -121,8 +119,8 @@ Download them from the link below and place inside the `/models/` folder.
 
 | Model | Description | Download |
 |--------|--------------|-----------|
-| `resnet18_binary_model.pth` | Binary classifier (Real vs Fake) | [Google Drive Link](#https://drive.google.com/file/d/1fXxWkC5A3Tn01z79nYbRv86dBBoJhFQi/view?usp=sharing) |
-| `attribution_efficientnetb0.pth` | GAN attribution (StyleGAN1/2/3) | [Google Drive Link](#https://drive.google.com/file/d/12zjMmUd9pUilxTQFLJrac7qoFFa8rPlY/view?usp=sharing) |
+| `resnet18_binary_model.pth` | Binary classifier (Real vs Fake) | [Google Drive Link](https://drive.google.com/file/d/1fXxWkC5A3Tn01z79nYbRv86dBBoJhFQi/view?usp=sharing) |
+| `attribution_efficientnetb0.pth` | GAN attribution (StyleGAN1/2/3) | [Google Drive Link](https://drive.google.com/file/d/12zjMmUd9pUilxTQFLJrac7qoFFa8rPlY/view?usp=sharing) |
 
 ---
 
