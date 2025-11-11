@@ -135,9 +135,9 @@ Download them from the link below and place inside the `/models/` folder.
 ## 👨‍💻 Team
 | Name | Role |
 |------|------|
-| **[Piyush]** | Model Architecture & Integration |
-| **[Sanjana]** | Dataset & Training |
-| **[Suhana]** | UI & Explainability |
+| **[Piyush]**(https://github.com/metrox111) | Model Architecture & Integration |
+| **[Sanjana]**(https://github.com/Sanjana1091) | Dataset & Training |
+| **[Suhana]**(https://github.com/Suhaanaaa) | UI & Explainability |
 
 ---
 
