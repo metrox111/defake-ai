@@ -34,7 +34,7 @@ It combines **ResNet18** for binary classification, **Dual EfficientNet-B0** for
 This model classifies an image as **Real** or **Fake**.  
 It’s based on a fine-tuned ResNet18 with dropout regularization for better generalization.
 
-![Binary Model Architecture]<img width="850" height="425" alt="image" src="https://github.com/user-attachments/assets/d8d92b3f-31b5-4156-9dde-0103ecf0ab89" />
+<img width="850" height="425" alt="image" src="https://github.com/user-attachments/assets/d8d92b3f-31b5-4156-9dde-0103ecf0ab89" />
 
 
 ---
@@ -43,7 +43,7 @@ It’s based on a fine-tuned ResNet18 with dropout regularization for better gen
 This dual-branch model identifies **which GAN (StyleGAN1/2/3)** generated a fake image.  
 It processes both the RGB image and its FFT frequency spectrum through two EfficientNet-B0 branches, then fuses features for classification.
 
-![Attribution Model Architecture]<img width="600" height="773" alt="image" src="https://github.com/user-attachments/assets/e41cbb0a-7141-406e-a777-7fd2126dcbb1" />
+<img width="600" height="773" alt="image" src="https://github.com/user-attachments/assets/e41cbb0a-7141-406e-a777-7fd2126dcbb1" />
 
 
 ---
@@ -56,19 +56,19 @@ Each model is integrated with **Grad-CAM** for explainability, allowing visualiz
 ## 📊 Results
 
 ### 🔸 Confusion Matrix – Binary Model
-![Binary Confusion Matrix]<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/8fd73633-2f43-41eb-b3f2-a99344dc4418" />
+<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/8fd73633-2f43-41eb-b3f2-a99344dc4418" />
 
 
 ### 🔸 Confusion Matrix – Attribution Model
-![Attribution Confusion Matrix]<img width="1159" height="1030" alt="image" src="https://github.com/user-attachments/assets/44749ee1-b28b-43ec-900f-5d90b4df8fb5" />
+<img width="1159" height="1030" alt="image" src="https://github.com/user-attachments/assets/44749ee1-b28b-43ec-900f-5d90b4df8fb5" />
 
 
 ### 🔸 Classification Reports - Binary Model
-![Binary Classification Report]<img width="711" height="318" alt="image" src="https://github.com/user-attachments/assets/deacd834-1afc-4849-9bbd-0330fd60015a" />
+<img width="711" height="318" alt="image" src="https://github.com/user-attachments/assets/deacd834-1afc-4849-9bbd-0330fd60015a" />
 
 
 ### 🔸 Classification Reports - Attribution Model
-![Attribution Classification Report]<img width="538" height="363" alt="image" src="https://github.com/user-attachments/assets/530678ab-f4f8-4c30-b60b-1190fe3d483f" />
+<img width="538" height="363" alt="image" src="https://github.com/user-attachments/assets/530678ab-f4f8-4c30-b60b-1190fe3d483f" />
 
 ---
 
@@ -78,8 +78,8 @@ Grad-CAM visualizations highlight image regions most influential to the model’
 
 | Binary Detection | GAN Attribution |
 |------------------|----------------|
-| ![Binary GradCAM]<img width="1600" height="533" alt="image" src="https://github.com/user-attachments/assets/215081ca-d466-48a4-8aaa-fabf8f03493a" />
- | ![Attribution GradCAM]<img width="1150" height="636" alt="image" src="https://github.com/user-attachments/assets/56c9a080-6382-47bf-84a6-cdf89ea9e917" />
+|<img width="1600" height="533" alt="image" src="https://github.com/user-attachments/assets/215081ca-d466-48a4-8aaa-fabf8f03493a" />
+ |<img width="1150" height="636" alt="image" src="https://github.com/user-attachments/assets/56c9a080-6382-47bf-84a6-cdf89ea9e917" />
  |
 
 > **Red regions** = high influence  
@@ -91,7 +91,8 @@ Grad-CAM visualizations highlight image regions most influential to the model’
 
 | Upload | Analysis Result |
 |--------|-----------------|
-| ![Upload UI](reports/screenshots/ui_upload.png) | ![Results UI]<img width="1203" height="606" alt="image" src="https://github.com/user-attachments/assets/c8755c01-9d8d-4634-ae51-7b7a678b0647" />
+| ![Upload UI]<img width="1285" height="553" alt="image" src="https://github.com/user-attachments/assets/f8b606e4-7ba8-4f8f-a2d8-a235f82e2519" />
+| ![Results UI]<img width="1203" height="606" alt="image" src="https://github.com/user-attachments/assets/c8755c01-9d8d-4634-ae51-7b7a678b0647" />
  |
 
 **How it works:**
