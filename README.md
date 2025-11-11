@@ -90,7 +90,7 @@ Grad-CAM visualizations highlight image regions most influential to the model’
 
 | Upload | Analysis Result |
 |--------|-----------------|
-| ![Upload UI]<img width="1285" height="553" alt="image" src="https://github.com/user-attachments/assets/8aebcff7-4f25-49ff-bbbe-385a939447c3" /> | ![Results UI]<img width="1203" height="606" alt="image" src="https://github.com/user-attachments/assets/c8755c01-9d8d-4634-ae51-7b7a678b0647" />
+| <img width="1285" height="553" alt="image" src="https://github.com/user-attachments/assets/8aebcff7-4f25-49ff-bbbe-385a939447c3" /> | <img width="1203" height="606" alt="image" src="https://github.com/user-attachments/assets/c8755c01-9d8d-4634-ae51-7b7a678b0647" />
  |
 
 **How it works:**
